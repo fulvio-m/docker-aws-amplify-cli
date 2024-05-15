@@ -1,4 +1,4 @@
-FROM kermet/docker-aws-cli
+FROM kermet/docker-aws-cli:latest
 
 RUN apk update && \
 apk -Uu add nodejs npm make && \
